@@ -1,0 +1,62 @@
+body {
+	font-family: sans-serif;
+	text-align: left;
+	padding: 10px;
+	font-size: 1.125rem;
+	line-height: 1.5;
+	background-color: rgb(238, 238, 238);
+}
+
+h1 {
+	font-size: 25px;
+	font-weight: bolder;
+	margin-bottom: 1rem;
+	font-family: 'Raleway', sans-serif;
+}
+
+p {
+	font-size: 20px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-style:inherit;
+	margin-bottom: 20px;
+	color: black;
+}
+
+.button {
+  background-color: blue;
+  border: none;
+	border-width: 30px;
+  color: white;
+  padding: 15px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+	width: 300px;
+}
+
+nav {
+    display: block;
+    float: right;
+    margin-top: 28px;
+    width: 30%;
+    box-sizing: border-box;
+    border-left: 1px solid #ccc;
+    padding-left: 16px;
+		text-align: left;
+}
+
+a {
+	font-size: 20px;
+	border-width: 20px;
+	margin: 4px 2px;
+	font-family: 'Raleway', sans-serif;
+}
+
+input[type="tel"] {
+	width: 300px;
+	height: 40px;
+	font-size: 20px;
+}

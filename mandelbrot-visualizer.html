@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<link rel="icon" href="https://plus.maths.org/issue40/features/devaney/mandel_fig3.gif">
+<link rel="stylesheet" type="text/css" href="css/mandelbrot.css">
+<html>
+  <head>
+    <title>Mandelbrot set visualizer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <h1><a href="index.html">Home</a></h1>
+      <h1><a href="tornero-angel-mandelbrot.html">Mandelbrot set visualizer</a></h1>
+      <h1><a href="out/index.html" target="_blank">Documentation</a></h1>
+      <br>
+      <h1 style="font-size: 20px">Max iterations:</h1>
+      <input type="tel" id="maxits" value="50" size="20" />
+      <input type="button" style="background-color:blue" class="button" id="button1" value="Create graphic" onclick="drawGraph('mandelbrot', 'maxits');">
+      <br><br>
+      <h1 style="font-size: 20px">N value for <a href="https://en.wikipedia.org/wiki/Monte_Carlo_method" target="_blank">Monte Carlo method</a>:</h1>
+      <input type="tel" id="nvalue" value="10000" size="20" />
+      <input type="button" style="background-color:green" class="button" id="button3" value="Calculate area" onclick="calculateArea('maxits', 'nvalue', 'mandelbrot');">
+      <br><br>
+      <br>
+      <a style="font-size: 20px" href="https://en.wikipedia.org/wiki/Mandelbrot_set"target="_blank">What is Mandelbrot set?</a>
+      
+    </nav>
+    <h1 style="color:black; font-size: 30px;">Mandelbrot set visualizer</h1>
+    <canvas id="mandelbrot" width="1200" height="800" style="border:1px solid black; background-color: black;"> </canvas>
+    <script defer async src="js/index.js"> </script>
+    <script defer async src="js/mandelbrot.js"> </script>
+    <script defer async src="js/complex-number.js"> </script>
+  </body>
+</html>
