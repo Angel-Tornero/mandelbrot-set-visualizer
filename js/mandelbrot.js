@@ -1,7 +1,7 @@
 /**
  * Angred
  * 
- * @module ComplexNumber
+ * @module Mandelbrot
  * @author Ángel Tornero Hernández
  * @date 14 Abr 2021
  * @brief Mandelbrot class
