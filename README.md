@@ -2,4 +2,4 @@
 
 # Author
 
-Ángel Tornero Hernández
+Ángel Tornero Hernández angelgeniuh@gmail.com
