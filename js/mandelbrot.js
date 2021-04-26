@@ -122,9 +122,9 @@ class Mandelbrot {
         data[dataIndex + 1] = colour[1];
         data[dataIndex + 2] = colour[2];
         data[dataIndex + 3] = 255;
+        ctx.putImageData(imageData, 0, 0);
       }
     }
-    ctx.putImageData(imageData, 0, 0);
   }
 
   /**
