@@ -60,10 +60,10 @@ class Mandelbrot {
   */
   constructor(maxIterations, width, height) {
     this.#maxIterations = maxIterations;
-    this.#leftRealLimit = -1;
-    this.#topImaginaryLimit = 1;
-    this.#rightRealLimit = 1;
-    this.#botImaginaryLimit = -1;
+    this.#leftRealLimit = -2;
+    this.#topImaginaryLimit = 2;
+    this.#rightRealLimit = 2;
+    this.#botImaginaryLimit = -2;
     this.#width = width;
     this.#height = height;
   }
