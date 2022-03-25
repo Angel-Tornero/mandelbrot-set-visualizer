@@ -42,11 +42,11 @@ const calculateArea = (iterations, valueN, canvasElement) => {
 
   let context = canvas.getContext('2d');
   context.fillStyle = 'rgba(255, 255, 255, 100)';
-  context.fillRect(450, 525, 150, 50);
+  context.fillRect(450, 525, 150, 75);
 
   context.font = '12px Arial';
   context.fillStyle = 'black';
   context.textAlign = 'left';
-  context.fillText('Area: ' + results[0], 455, 530);
-  context.fillText('Error: ' + results[1], 455, 550);
+  context.fillText('Area: ' + results[0], 455, 545);
+  context.fillText('Error: ' + results[1], 455, 570);
 }
